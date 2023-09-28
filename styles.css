@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+  width: 200px; /* Total size of the grid container */
+  height: 200px; /* Total size of the grid container */
+  gap: 10px; /* Adjust the gap between grid items as needed */
+}
+
+/* Additional styling for the grid items (optional) */
+.item-1{
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.item-2{
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.item-3{
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.item-4{
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
